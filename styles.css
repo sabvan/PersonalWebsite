@@ -1,0 +1,56 @@
+html, body {
+    margin: 0;
+    padding:0;
+}
+
+.App {
+    background-color: #F9E9EC;
+    text-align: center;
+}
+  
+.App-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 2.5vh;
+    font-family: 'Trebuchet MS';
+    height: 6vh;
+    border-bottom: solid;
+    margin-top: 3vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    z-index: 1;
+}
+  
+.headerLeft{
+    margin-left: 4vh;
+    font-size: 3vh;
+    width:250px;
+}
+  
+.headerContainer{
+    display:flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    margin-left: 40vh;
+    width:100%;
+}
+  
+.headerRight{
+    margin-left: 6vh;
+    margin-right: 9vh;
+}
+  
+.mainSabrina {
+    font-family: 'Trebuchet MS';
+    color: #220C10;
+    font-size: 10vh;
+    margin-top: 15vh;
+    background-color: #F9E9EC;
+}
