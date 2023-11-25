@@ -1,31 +1,39 @@
-html, body {
+.test {
+    width: 200px;
+}
+
+.darkbrown {
+    color: #474056;
+}
+.lightpink {
+    background-color: #F9E9EC;
+}
+
+html, head, body {
     margin: 0;
     padding:0;
+    font-family: 'Trebuchet MS';
 }
 
 .App {
-    background-color: #F9E9EC;
     text-align: center;
 }
   
 .App-header {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
 .header {
     font-size: 2.5vh;
-    font-family: 'Trebuchet MS';
     height: 6vh;
-    border-bottom: solid;
     margin-top: 3vh;
     width: 100%;
     position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: baseline;
-    z-index: 1;
+    z-index: 5;
 }
   
 .headerLeft{
@@ -48,9 +56,73 @@ html, body {
 }
   
 .mainSabrina {
-    font-family: 'Trebuchet MS';
-    color: #220C10;
     font-size: 10vh;
-    margin-top: 15vh;
-    background-color: #F9E9EC;
+    height: 16vh;
+    margin-top: 9vh;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+}
+
+.mainContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 69vh;
+}
+
+.mainThirdElements {
+    width:100%;
+    height:100%;
+}
+
+.links {
+    width:100%;
+    position: relative;
+}
+
+.backdots {
+    height: 65%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-right: 10%;
+    width: 80%;
+    position: absolute;
+}
+
+.linkscard {
+    width: 80%;
+    margin-left: 15%;
+    margin-right: 5%;
+    margin-top: 5%;
+    opacity: 90%;
+}
+
+.linkscardbody {
+    background-color: #E08F9E;
+}
+
+.logos {
+    width: 25px;
+    height: 25px;
+}
+
+.linkslist{
+    background-color: #E08F9E;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding: 1vh;
+
+}
+
+.linknames{
+    width: 40%;
+    height: 3vh;
+    justify-self: left;
+    font-size: 20px;
 }
