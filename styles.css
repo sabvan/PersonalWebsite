@@ -15,15 +15,19 @@ html, head, body {
     padding:0;
     font-family: 'Trebuchet MS';
     background-color: #B1CEE7;
+    height: 100%;
 }
 
 .App {
     text-align: center;
+    background-color: #B1CEE7;
 }
   
 .App-header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-top: 10vh;
 }
 
 .header {
@@ -61,7 +65,7 @@ html, head, body {
 .mainSabrina {
     font-size: 10vh;
     height: 16vh;
-    margin-top: 9vh;
+    margin-top: 23vh;
     display: flex;
     flex-direction: column;
     z-index: 0;
@@ -86,7 +90,7 @@ html, head, body {
 }
 
 .backdots {
-    height: 65%;
+    height: 55%;
     margin-left: 5%;
     margin-top: 20%;
     margin-right: 20%;
@@ -136,6 +140,5 @@ html, head, body {
 
 .subscript {
     font-size: 10px;
-    margin-bottom: 4px;
-
+    padding-bottom: 3vh;
 }
