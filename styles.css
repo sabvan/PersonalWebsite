@@ -39,9 +39,10 @@ html, head, body {
 }
   
 .headerLeft{
-    margin-left: 4vh;
+    padding-left: 5vh;
+    padding-right: 5vh;
     font-size: 3vh;
-    width:250px;
+    width: 300px;
 }
   
 .headerContainer{
@@ -53,8 +54,8 @@ html, head, body {
 }
   
 .headerRight{
-    margin-left: 6vh;
-    margin-right: 9vh;
+    padding-left: 6vh;
+    padding-right: 9vh;
 }
   
 .mainSabrina {
@@ -88,15 +89,15 @@ html, head, body {
     height: 65%;
     margin-left: 5%;
     margin-top: 20%;
-    margin-right: 15%;
-    width: 80%;
+    margin-right: 20%;
+    width: 75%;
     position: absolute;
 }
 
 .linkscard {
-    width: 80%;
+    width: 75%;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 25%;
     margin-top: 15%;
     opacity: 90%;
 }
@@ -129,8 +130,8 @@ html, head, body {
 }
 
 .middleimage{
-    width: 80%;
-    height: 90%;
+    width: 50vh;
+    height: 65vh;
 }
 
 .subscript {
