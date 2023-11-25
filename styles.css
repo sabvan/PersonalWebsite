@@ -3,16 +3,18 @@
 }
 
 .darkbrown {
-    color: #474056;
+    color: #23496C;
 }
+
 .lightpink {
-    background-color: #F9E9EC;
+    background-color: #B1CEE7;
 }
 
 html, head, body {
     margin: 0;
     padding:0;
     font-family: 'Trebuchet MS';
+    background-color: #B1CEE7;
 }
 
 .App {
@@ -84,32 +86,26 @@ html, head, body {
 
 .backdots {
     height: 65%;
-    margin-left: 10%;
-    margin-top: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-top: 20%;
+    margin-right: 15%;
     width: 80%;
     position: absolute;
 }
 
 .linkscard {
     width: 80%;
-    margin-left: 15%;
-    margin-right: 5%;
-    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 15%;
     opacity: 90%;
 }
 
 .linkscardbody {
-    background-color: #E08F9E;
-}
-
-.logos {
-    width: 25px;
-    height: 25px;
+    background-color: #73A6D4;
 }
 
 .linkslist{
-    background-color: #E08F9E;
     display:flex;
     flex-direction:row;
     justify-content: center;
@@ -125,4 +121,20 @@ html, head, body {
     height: 3vh;
     justify-self: left;
     font-size: 20px;
+}
+
+.logos {
+    width: 25px;
+    height: 25px;
+}
+
+.middleimage{
+    width: 80%;
+    height: 90%;
+}
+
+.subscript {
+    font-size: 10px;
+    margin-bottom: 4px;
+
 }
