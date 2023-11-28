@@ -21,6 +21,7 @@ html, head, body {
 .App {
     text-align: center;
     background-color: #B1CEE7;
+    height: 100%;
 }
   
 .App-header {
@@ -141,4 +142,9 @@ html, head, body {
 .subscript {
     font-size: 10px;
     padding-bottom: 3vh;
+}
+
+.techmain {
+    margin-left: 20vh;
+    margin-right: 20vh;
 }
